@@ -77,51 +77,6 @@ n8n-ai-agent-widget-lab/
 1. Webhook 觸發器 → 2. Chat Trigger → 3. AI 模型節點 → 4. Respond to Webhook
 ```
 
-詳細設定步驟請參考各資料夾中的 README.md 檔案。
-
-## 📋 學習路徑建議
-
-### 🌟 初學者路徑
-
-1. 先從 **靜態 HTML 版本** 開始
-2. 理解 n8n Chat Widget 的基本概念
-3. 設定第一個 n8n 工作流
-4. 測試聊天功能
-
-### 🚀 進階開發者路徑
-
-1. 直接使用 **React + Vite 版本**
-2. 了解 TypeScript 型別定義
-3. 自訂 Chat Widget 樣式
-4. 整合更複雜的 n8n 工作流
-
-## 🎨 自訂選項
-
-### 樣式自訂
-
-* 🎨 Tailwind CSS 樣式系統
-* 🖌️ CSS 變數自訂主題色彩
-* 📱 響應式設計
-* 🎭 聊天氣泡樣式
-
-### 功能自訂
-
-* 🗣️ 多語言介面
-* 📝 自訂歡迎訊息
-* 👤 使用者資訊表單
-* 🔔 通知設定
-
-### React 版本部署
-
-```bash
-# 建置專案
-npm run build
-
-# 部署到各平台
-vercel         # Vercel
-netlify deploy # Netlify
-```
-
 ## 🔍 疑難排解
 
 ### 常見問題
@@ -170,4 +125,4 @@ netlify deploy # Netlify
 
 ## 👨‍💻 作者
 
-DevOps with Alex - AI Brain Alex 相談室
+AI Brain Alex 相談室

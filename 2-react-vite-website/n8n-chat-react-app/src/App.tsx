@@ -6,7 +6,7 @@ import { createChat } from '@n8n/chat';
 function App() {
   useEffect(() => {
     createChat({
-      webhookUrl: 'https://n8n-alex.zeabur.app/webhook/992455f5-869d-4634-b382-4ad1ceeddb93/chat',
+      webhookUrl: '{webhook}', TODO: 替換為實際 Webhook
       metadata   : {
         name : "alexhsieh",
         email  : "ai.brain.alex@gmail.com",
