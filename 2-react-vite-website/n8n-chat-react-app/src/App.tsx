@@ -66,7 +66,7 @@ function App() {
               <ul className="list-disc list-inside space-y-2">
                 <li>即時與訪客對話，收集需求或引導預約流程</li>
                 <li>
-                  透過 Webhook 呼叫 <strong>M8n</strong> 後端，執行訂單查詢、預約確認等動作
+                  透過 Webhook 呼叫 <strong>n8n</strong> 後端，執行訂單查詢、預約確認等動作
                 </li>
                 <li>支援 OpenAI / Anthropic / Google Gemini 等大型語言模型</li>
                 <li>可用 n8n 節點擴充自訂邏輯，快速迭代</li>
@@ -88,9 +88,9 @@ function App() {
         </div>
       </section>
 
-      <section id="m8n-basics" className="py-16">
+      <section id="n8n-basics" className="py-16">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-6">M8n 基礎功能</h2>
+          <h2 className="text-3xl font-bold mb-6">n8n 基礎功能</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="font-semibold mb-2">可視化工作流設計</h3>
