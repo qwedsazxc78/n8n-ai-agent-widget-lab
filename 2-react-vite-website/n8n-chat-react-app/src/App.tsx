@@ -6,13 +6,13 @@ import { createChat } from '@n8n/chat';
 function App() {
   useEffect(() => {
     createChat({
-      webhookUrl: '{webhook}', // TODO: 替換為實際 Webhook
+      webhookUrl: '{webhook}',
       metadata   : {
         name : "alexhsieh",
         email  : "ai.brain.alex@gmail.com",
       },
       target: '#n8n-chat',
-      defaultLanguage: 'en',
+      defaultLanguage: 'zh',
       initialMessages: [
         '嗨，一起學 AI 摟！👋',
         'Alex相談室，YT歡迎加入喔，AI一把罩啦！'
